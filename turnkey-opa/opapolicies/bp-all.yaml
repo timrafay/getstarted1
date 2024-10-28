@@ -1,4 +1,3 @@
-#
 apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
