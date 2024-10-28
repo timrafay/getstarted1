@@ -2,7 +2,7 @@ apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
   name: bp-psp-restricted
-  project: defaultproject
+  project: kubeflow-mks
 spec:
   constraintList:
   - name: allow-privilege-escalation-container-custom 
@@ -38,5 +38,5 @@ spec:
   sharing:
     enabled: true
     projects:
-    - name: defaultproject
+    - name: kubeflow-mks
   version: v1

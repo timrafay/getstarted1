@@ -3,7 +3,7 @@ apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
   name: bp-all
-  project: defaultproject
+  project: kubeflow-mks
 spec:
   constraintList:
   ########PSP-Restricted################## 
@@ -68,5 +68,5 @@ spec:
   sharing:
     enabled: true
     projects:
-    - name: defaultproject
+    - name: kubeflow-mks
   version: v1

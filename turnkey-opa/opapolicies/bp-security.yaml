@@ -2,7 +2,7 @@ apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
   name: bp-security
-  project: defaultproject
+  project: kubeflow-mks
 spec:
   constraintList:
   - name: allowed-repos-custom
@@ -16,5 +16,5 @@ spec:
   sharing:
     enabled: true
     projects:
-    - name: defaultproject
+    - name: kubeflow-mks
   version: v1

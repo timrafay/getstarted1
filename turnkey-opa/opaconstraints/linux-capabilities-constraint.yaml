@@ -4,7 +4,7 @@ metadata:
   labels:
     rafay.dev/opa: constraint
   name: linux-capabilities-custom
-  project: defaultproject
+  project: kubeflow-mks
 spec:
   artifact:
     artifact:
