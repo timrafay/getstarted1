@@ -1,6 +1,0 @@
-kind: Blueprint
-metadata:
-  # blueprint name
-  name: efs-blueprint
-  #project name
-  project: defaultproject

@@ -1,8 +1,0 @@
-apiVersion: config.rafay.dev/v2
-kind: Repository
-metadata:
-  name: triton-server
-spec:
-  repositoryType: GitRepository
-  endpoint:  https://github.com/triton-inference-server/server.git
-  credentialType: CredentialTypeNotSet

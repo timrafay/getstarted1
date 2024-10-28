@@ -1,8 +1,0 @@
-apiVersion: config.rafay.dev/v2
-kind: Repository
-metadata:
-  name: metallb-repo
-spec:
-  repositoryType: HelmRepository
-  endpoint:  https://metallb.github.io/metallb
-  credentialType: CredentialTypeNotSet

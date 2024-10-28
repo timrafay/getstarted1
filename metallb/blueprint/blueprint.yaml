@@ -1,6 +1,0 @@
-kind: Blueprint
-metadata:
-  # blueprint name
-  name: metallb-blueprint
-  #project name
-  project: defaultproject

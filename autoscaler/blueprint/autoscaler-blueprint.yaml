@@ -1,6 +1,0 @@
-kind: Blueprint
-metadata:
-  # blueprint name
-  name: autoscaler-blueprint
-  #project name
-  project: defaultproject

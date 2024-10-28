@@ -1,8 +1,0 @@
-apiVersion: config.rafay.dev/v2
-kind: Repository
-metadata:
-  name: kubecost-repo
-spec:
-  repositoryType: HelmRepository
-  endpoint:  https://kubecost.github.io/cost-analyzer/
-  credentialType: CredentialTypeNotSet

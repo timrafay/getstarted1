@@ -1,6 +1,0 @@
-name: efspvc
-namespace: efstest
-project: defaultproject
-type: NativeYaml
-clusters: eks-efs-cluster
-payload: ./efspvcspec.yaml

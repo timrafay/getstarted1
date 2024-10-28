@@ -1,5 +1,0 @@
-serviceAccount:
-  create: false
-  name: karpenter
-settings:
-  clusterName: {{{ .global.Rafay.ClusterName }}} 
