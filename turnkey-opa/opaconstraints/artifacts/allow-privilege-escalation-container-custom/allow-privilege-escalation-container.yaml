@@ -1,5 +1,5 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: Allow-Privilege-Escalation-Container
+kind: allow-privilege-escalation-container
 metadata:
   name: allow-privilege-escalation-container
 spec:
